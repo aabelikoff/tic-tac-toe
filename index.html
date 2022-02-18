@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="info"><img src="Pictures/566294.png"> TIC-TAC-TOE GAME</div>
+        <button id="start">Start game</button>
+        <div class="choose">
+            <div>
+                <div>
+                    <label for = "player1">Select element for Player 1:</label>
+                    <select id="player1" name="player1">
+                        <option selected value="X">X</option>
+                        <option value="O">0</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="firstmove1" class="custom-checkbox"  type="checkbox" name="firstmove" value="player1" checked>
+                    <label for="firstmove1">first move</label>
+                    <input id="AI1" class="custom-checkbox" type="checkbox" name="AI" value="true">
+                    <label for="AI1">computer</label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for = "player2">Select element for Player 2:</label>
+                    <select id="player2" name="player2">
+                        <option value="X">X</option>
+                        <option selected value="O">0</option>
+                    </select>
+                </div>
+                <div>
+                    <input id="firstmove2" class="custom-checkbox" type="checkbox" name="firstmove" value="player2">
+                    <label for="firstmove2">first move</label>
+                    <input id="AI2" class="custom-checkbox" type="checkbox" name="AI" value="true">
+                    <label for="AI2">computer</label>
+                </div>
+            </div>
+        </div>
+        <div class='content'></div>
+        <div class='alert'>Somebody is winner!</div>
+    </body>
+</html>
